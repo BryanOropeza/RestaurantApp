@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/img_shortOnboard"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/mainimg"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,22 +20,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your best place to find Movies"
-        android:textColor="#ffff"
+        android:paddingHorizontal="10dp"
         android:shadowColor="#000000"
         android:shadowDx="0"
         android:shadowDy="0"
-        android:shadowRadius="15"
+        android:shadowRadius="40"
+        android:text="Delicious \nFood"
+        android:textAlignment="center"
+        android:textColor="#ffff"
         android:textSize="35sp"
         android:textStyle="bold"
-        android:textAlignment="center"
-        android:paddingHorizontal="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.569" />
+        app:layout_constraintVertical_bias="0.972" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

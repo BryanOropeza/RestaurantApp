@@ -3,6 +3,7 @@
     <style name="Base.Theme.eco03" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="windowActionBar">false</item>
         <item name="colorPrimary">@color/md_theme_light_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
@@ -31,5 +32,5 @@
         <item name="colorPrimaryInverse">@color/md_theme_light_inversePrimary</item>
     </style>
 
-    <style name="Theme.ec03" parent="Base.Theme.ec03" />
+    <style name="Theme.eco03" parent="Base.Theme.MaterialComponents" />
 </resources>

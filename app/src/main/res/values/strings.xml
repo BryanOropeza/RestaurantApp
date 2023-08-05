@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">EC03</string>
+    <string name="app_name">EnarTaste</string>
     <string name="get_started_title">Elegant dining \nexceptional taste</string>
     <string name="get_started_buttom">Log in</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

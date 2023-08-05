@@ -1,14 +1,15 @@
 package com.bryan.ec03;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.bryan.ec03.databinding.ActivityShortOnBoardingBinding;
 
 public class ShortOnBoardingActivity extends AppCompatActivity {
+
 
     private ActivityShortOnBoardingBinding binding;
 

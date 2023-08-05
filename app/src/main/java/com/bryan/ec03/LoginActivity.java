@@ -22,6 +22,7 @@ public class LoginActivity extends AppCompatActivity {
         binding.button.setOnClickListener(view -> {
             //Toast.makeText(this,"Login press",Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(this, PrincipalActivity.class);
+            intent.putExtra(PrincipalActivity.EMAIL,binding.tilEmail.getEditText().getText().toString());
             startActivity(intent);
             finish();
         });
@@ -67,7 +68,7 @@ public class LoginActivity extends AppCompatActivity {
     private boolean isCredentialValidate(String email, String password){
 
         boolean isEmailOk = (!email.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(email).matches()) || email.equals("ejemplo@idat.com.pe");
-        boolean isPasswordOk = (password.length() >= 8) || password.equals("idat1234");
+        boolean isPasswordOk = (password.length() >= 8) || password.equals("peru1234");
 
         return isEmailOk && isPasswordOk;
     }

@@ -1,10 +1,9 @@
 package com.bryan.ec03;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.bryan.ec03.databinding.ActivityMainBinding;
 import com.google.android.material.snackbar.Snackbar;
@@ -27,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
         } );
         binding.fltMain.setOnClickListener(view -> {
             String[] mensajes = {
-                    "Playing!",
-                    "Started Now",
-                    "Let's go",
-                    "Very Nice"
+                    "Very delicious Plates",
+                    "Tipical Plates From Perú",
+                    "The best choice",
+
             };
             int mensajeAleatorio = (int) (Math.random() * mensajes.length);
             String mensajeElegido = mensajes[mensajeAleatorio];
